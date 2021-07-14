@@ -3,17 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.O">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     
     <title>Association Squirrel</title>
 </head>
 <body>
-    <header>
-        <a href=""><img src="" alt=""></a>
-        <nav></nav>
+    <header class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="#"><img src="img/squirrel.png" alt="squirrel logo"></a>
+                <h1 class="navbar-item title is-4">Association Squirrel</h1>
+                <a data-target="navbar-menu" class="navbar-burger">
+                    <span class="aria-hidden"></span>
+                    <span class="aria-hidden"></span>
+                    <span class="aria-hidden"></span>
+                </a>
+            </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">Notre association</a>
+                <a href="evenements.html" class="navbar-item">Prochains évènements</a>
+            </div>
+        </div>
+        </nav>
     </header>
 
-    <main>
+    <main class="container">
         <article>
             <section class="hero">
                 <h1></h1>
@@ -33,8 +50,10 @@
         <aside></aside>
     </main>
 
-    <footer>
-
+    <footer class="container">
+        <!--Attribution for squirrel icon-->
+        <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
+    <script src="myscript.js"></script>
 </body>
 </html>
