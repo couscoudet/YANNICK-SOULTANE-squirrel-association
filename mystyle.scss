@@ -1,13 +1,14 @@
 //Bulma variables customisation
-$primary : #9aca42;
-$green-layer : rgba(155,203,67,0.4);
-$brown-layer : rgba(131,92,36,0.4);
-$gradient-layer : linear-gradient($brown-layer, $green-layer);
+$primary : orangered;
+$primary-layer : rgba(255,69,0,0.7);
+$transparent-layer : rgba(131,92,36,0);
+$gradient-layer : linear-gradient($primary-layer, $transparent-layer, $transparent-layer);
 $dark : #835c24;
 $link : $primary;
-
+$navbar-item-color: $dark;
+$dropdown-item-color : $dark;
 .hero {
-    background-image:  $gradient-layer, url(img/ecureuil1.jpg);
+    background-image: $gradient-layer, url(img/ecureuil1.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -23,11 +24,19 @@ $link : $primary;
     background : $background-filter;
 }
 */
+
+.navbar {
+    border: 1px solid;
+}
 .home-section > .title {
     display: inline-block;
     background: $dark;
     color: white;
     padding: 5px;
+}
+
+h1{
+    display: inline-block;
 }
 
 footer{
