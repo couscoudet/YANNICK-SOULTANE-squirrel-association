@@ -2,8 +2,9 @@
 $primary : #9aca42;
 $green-layer : rgba(155,203,67,0.4);
 $brown-layer : rgba(131,92,36,0.4);
-$gradient-layer : linear-gradient($green-layer, $brown-layer);
+$gradient-layer : linear-gradient($brown-layer, $green-layer);
 $dark : #835c24;
+$link : $primary;
 
 .hero {
     background-image:  $gradient-layer, url(img/ecureuil1.jpg);
@@ -34,7 +35,7 @@ footer{
 }
 
 a{
-    color: $primary;
+    color: red;
 }
 
 @import "bulma/bulma.sass";
