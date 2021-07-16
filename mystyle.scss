@@ -1,6 +1,41 @@
 //Bulma variables customisation
 $primary : #9aca42;
+$green-layer : rgba(155,203,67,0.4);
+$brown-layer : rgba(131,92,36,0.4);
+$gradient-layer : linear-gradient($green-layer, $brown-layer);
+$dark : #835c24;
 
+.hero {
+    background-image:  $gradient-layer, url(img/ecureuil1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+/*
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background : $background-filter;
+}
+*/
+.home-section > .title {
+    display: inline-block;
+    background: $dark;
+    color: white;
+    padding: 5px;
+}
+
+footer{
+    background: $dark;
+}
+
+a{
+    color: $primary;
+}
 
 @import "bulma/bulma.sass";
 
