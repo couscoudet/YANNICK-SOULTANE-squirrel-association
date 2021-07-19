@@ -7,6 +7,8 @@ $dark : #835c24;
 $link : $primary;
 $navbar-item-color: $dark;
 $dropdown-item-color : $dark;
+
+
 .hero {
     background-image: $gradient-layer, url(img/ecureuil1.jpg);
     background-size: cover;
@@ -40,9 +42,27 @@ footer{
     background: $dark;
 }
 
-a{
-    color: red;
+@media screen and (min-width: 500px){
+    .hero {
+        height : 600px;
+    }
+}
+
+@media screen and (min-width: 1210px){
+
+    .hero {
+        height : 900px;
+
+        h1.title.is-1{
+            font-size: 170px;
+        }
+
+        P.subtitle{
+            font-size: 100px;
+        }
+    }
 }
 
 @import "bulma/bulma.sass";
+
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="icon" href="img/favicon.ico" />
+    <link rel="icon" href="img/favicon.png" />
     <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
@@ -13,7 +13,7 @@
 <body>
     
     <header>
-        <nav class="navbar">
+        <nav class="navbar container">
             <div class="navbar-brand">
                 <a href="#" class="navbar-item" style="background: orangered"><img src="img/logo.png" alt="squirrel logo"></a>
                 <a data-target="navbar-menu" class="navbar-burger">
@@ -39,23 +39,18 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
         </nav>
     </header>
 
     <main class="container">
-        <article>
+    <div class="columns is-desktop">
+        <article class="column is-four-fifths">
             <section class="hero is-dark p-4">
-                <div class="columns">
-                <div class="column">
+                <div class="hero-text">
                     <h1 class="title is-1">L'écureuil</h1>
                     <p class="subtitle is-3">Quel panache !</p>
-                </div>
-                <div class="column">
-                    <!--<img src="img/ecureuil1.jpg" alt="photo ecureuil">-->
-                </div>
                 </div>
             </section>
             <section class="home-section content box m-2" id="who">
@@ -74,9 +69,10 @@
                 <h2></h2>
                 <p></p>
         </article>
-        <aside class="is-flex is-flex-direction-column is-align-items-center">
+        <aside class="is-flex is-flex-direction-column is-align-items-center column">
             <a target="_blank" href="https://www.paypal.com/" class="button is-primary has-text-white m-x-5 title is-5 my-4 is-rounded">Faire un don</a>
         </aside>
+    </div>
     </main>
 
     <footer class="container p-4 has-text-white">
