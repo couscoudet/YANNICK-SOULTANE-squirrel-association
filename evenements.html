@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Association Squirrel</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar container">
+            <div class="navbar-brand">
+                <a href="#" class="navbar-item" style="background: orangered"><img src="img/logo.png" alt="squirrel logo"></a>
+                <a data-target="navbar-menu" class="navbar-burger">
+                    <span class="aria-hidden"></span>
+                    <span class="aria-hidden"></span>
+                    <span class="aria-hidden"></span>
+                </a>
+            </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">Notre association</a>
+                <a href="evenements.html" class="navbar-item">Prochains évènements</a>
+                <a href="ecureuils.html" class="navbar-item">Reconnaitre les écureuils</a>
+                <div class="dropdown is-hoverable">
+                    <div class="navbar-item dropdown-trigger"><span>Nos conseils</span>
+                        <span class="icon is-small"><i class="fas fa-angle-down"></i></span>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">Les ecuroducs</a>
+                            <a href="#" class="dropdown-item">Nourrir un écureuil ?</a>
+                            <a href="#" class="dropdown-item">Bébé écureuil en détresse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <main class="container m-2">
+        <h1 class="title has-background-primary has-text-white is-4 p-3">Evenements Squirrel</h1>
+        <section class="france events">
+            <h2 class="title has-text-white has-background-dark is-5 p-2">Evenements en France</h2>
+            <div class="card">
+                <div class="card-header">
+                    <p class="card-header-title has-text-dark">
+                        Le pique-nique des écureuils
+                    </p>
+                </div>
+                <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="img/pique-nique.jpeg" alt="le pique nique des ecureuils" >
+                </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        Tous les ans, le pique-nique des écureuils rassemble plus de 500 personnes. Au programme, dans une ambiance familiale, plusieurs animations musicales ainsi que des ateliers de loisirs créatifs sur le thème de l'écureuil. Le lieu du pique-nique est propice aux rencontres avec nos amis à quatre pattes qui pourront parfois s'inviter à votre table.
+                    </div>
+                </div>
+                <div class="card-footer">
+                        <div class="card-footer-item has-text-primary has-text-centered">Prochaine date<br>31/08/2021</div>
+                        <address class="card-footer-item has-text-dark is-flex is-flex-direction-column has-text-centered">Parc des Ibis<br>78110 Le Vésinet<a target="_blank" href="https://goo.gl/maps/nfwKW7LPdxEwbg2W7"><i class="fas fa-map-marked-alt"></i></a></adress>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="international events">
+            <h2 class="title has-text-white has-background-dark is-5 p-2 mt-5">Evenements à l'international</h2>
+        </section>
+    </main>
+
+    <footer class="container p-4 has-text-white">
+        <p>2021 - Association Squirrel</p>
+        <div class="contact">Contact : <address class="is-flex is-flex-direction-column"><a href="mailto:#">contact@squirrel.com</a><a href="tel:+33601010101">06 01 01 01 01</a></address></div>
+        <!--Attribution for squirrel icon-->
+        <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script src="myscript.js"></script>
+</body>
+</html>

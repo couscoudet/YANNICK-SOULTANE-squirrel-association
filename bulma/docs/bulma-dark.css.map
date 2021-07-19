@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAoCA,AAAA,UAAU,CAAC;EACT,gBAAgB,EClCH,OAAc;CDqCJ;;AAJzB,AAGE,UAHQ,AAGP,WAAW,CAAC;EACX,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "bulma-dark.sass",
+        "../sass/utilities/initial-variables.sass"
+    ],
+    "names": [],
+    "file": "bulma-dark.css"
+}
