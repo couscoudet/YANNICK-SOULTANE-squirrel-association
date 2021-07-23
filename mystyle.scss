@@ -8,6 +8,15 @@ $link : $primary;
 $navbar-item-color: $dark;
 $dropdown-item-color : $dark;
 
+$title-color : $primary;
+$title-size : 20px;
+$title-weight : 900;
+
+$subtitle-color : $dark;
+$subtitle-size : 16px;
+$subtitle-weight : 700;
+
+
 
 .hero {
     background-image: $gradient-layer, url(img/ecureuil1.jpg);
@@ -27,12 +36,7 @@ $dropdown-item-color : $dark;
 }
 */
 
-.home-section > .title {
-    display: inline-block;
-    background: $dark;
-    color: white;
-    padding: 5px;
-}
+
 
 h1{
     display: inline-block;

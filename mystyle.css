@@ -17,13 +17,6 @@
     background : $background-filter;
 }
 */
-.home-section > .title {
-  display: inline-block;
-  background: #835c24;
-  color: white;
-  padding: 5px;
-}
-
 h1 {
   display: inline-block;
 }
@@ -3357,9 +3350,9 @@ a.tag:hover {
 }
 
 .title {
-  color: #363636;
-  font-size: 2rem;
-  font-weight: 600;
+  color: orangered;
+  font-size: 20px;
+  font-weight: 900;
   line-height: 1.125;
 }
 
@@ -3401,9 +3394,9 @@ a.tag:hover {
 }
 
 .subtitle {
-  color: #4a4a4a;
-  font-size: 1.25rem;
-  font-weight: 400;
+  color: #835c24;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1.25;
 }
 
